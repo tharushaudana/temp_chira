@@ -10,6 +10,8 @@ $username = "temp1101";
 $password = "TeP@11245";
 $dbName = "if0_39640263_unityapi";
 
+$table_name = "faults";
+
 try {
     $pdo = new PDO("mysql:host=$servername;dbname=$dbName", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
